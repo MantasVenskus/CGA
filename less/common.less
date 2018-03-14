@@ -56,5 +56,57 @@ box-sizing: border-box;
 	overflow: hidden;
 }
 h2 {
+	font-size: 37px;
+	line-height: 1.2;
+	position: relative;
+	z-index: 4;
+	text-align: center;
+	text-transform: uppercase;
 	font-family: 'Gotham Medium', helvetica, sans-serif;
+	&.after {
+		padding: 70px 0;
+		&:after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			content: 'W';
+			font-size: 247.18px;
+			line-height: 210.64px;
+			color: #5993b2;
+			z-index: -1;
+		}
+	}
+}
+.boxes {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 48px;
+	.box {
+		width: 23%;
+		min-width: 200px;
+		margin: 20px 1%;
+		.image {
+			display: inline-block;
+			background-color: #2e85aa;
+			height: 132px;
+			width: 132px;
+			border-radius: 50%;
+			i {
+				font-size: 30px;
+				line-height: 132px;
+			}
+		}
+		h2 {
+			font-size: 18px;
+			line-height: 36px;
+		}
+		p {
+			text-align: left;
+		}
+	}
+	@media screen and (max-width: 900px) {
+		justify-content: center;
+	}
 }

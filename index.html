@@ -18,6 +18,8 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 
 
 </head>
@@ -119,7 +121,7 @@
   </section>
 
   <section id="news">
-    <div class="row">
+    <div class="row dark">
       <div class="post">
         <p>Jan 4, 2016   |   In Culture</p>
         <h2>Akita Inu Dog</h2>
@@ -128,7 +130,115 @@
       </div>
       <img src="images/row1.jpg">
     </div>
+
+    <div class="row">
+      <img src="images/row2.jpg">
+      <div class="post">
+        <p>Jan 4, 2016   |   In Culture</p>
+        <h2>Akita Inu Dog</h2>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        <p>Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur</p>
+      </div>
+    </div>
     
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="after">We’d love to hear about your project.</h2>
+
+      <form action="#" method="GET">
+        <div class="inputs">
+          <input type="text" name="name" placeholder="Name">
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            data-rule-email="true"
+            data-msg-email="Klaidingas el. paštas!" data-rule-required="true"
+            data-msg-required="Šis laukelis yra privalomas.">
+          <input type="text" name="tel" placeholder="Phone">
+        </div>
+        <textarea name="message" placeholder="Message"></textarea>
+        <input type="submit" value="SUBMIT" class="btn btn-submit">
+      </form>
+    </div>
+  </section>
+
+  <section id="blog">
+    <div class="container">
+      <h2 class="after">Let's blog</h2>
+      <p>We love clean design and advanced digital solutions.</p>
+
+      <div class="boxes">
+
+        <div class="box">
+          <img src="images/blog_img1.jpg">
+          <h2>Fresh Summer Campaign</h2>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/blog_img2.jpg">
+          <h2>Fresh Summer Campaign</h2>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/blog_img1.jpg">
+          <h2>Fresh Summer Campaign</h2>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/blog_img3.jpg">
+          <h2>Fresh Summer Campaign</h2>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="team">
+    <div class="container">
+      <h2 class="after">Our Team</h2>
+      <p> sales long tail influencer pitch release niche market</p>
+    
+      <div class="boxes">
+        <div class="box">
+          <img src="images/team.jpg">
+          <div class="caption">
+            <h2>Name Surname</h2>
+            <p>CEO</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/team.jpg">
+          <div class="caption">
+            <h2>Name Surname</h2>
+            <p>CEO</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/team.jpg">
+          <div class="caption">
+            <h2>Name Surname</h2>
+            <p>CEO</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/team.jpg">
+          <div class="caption">
+            <h2>Name Surname</h2>
+            <p>CEO</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 </body>
